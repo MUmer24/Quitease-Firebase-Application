@@ -61,13 +61,13 @@ You will receive a response within **48 hours**. We take all reports seriously.
 
 See [`.env.example`](.env.example) for the complete list of required variables.
 
-| Variable | Source | Sensitivity |
-|----------|--------|-------------|
-| `FIREBASE_ANDROID_API_KEY` | Firebase Console | 🟡 Medium (restrict via SHA-1) |
-| `FIREBASE_WEB_API_KEY` | Firebase Console | 🟡 Medium (restrict via domain) |
-| `FIREBASE_ANDROID_APP_ID` | Firebase Console | 🟡 Medium |
-| `FIREBASE_PROJECT_ID` | Firebase Console | 🟢 Low (not secret alone) |
-| `GOOGLE_SERVER_CLIENT_ID` | Google Cloud Console | 🔴 High (restrict to app) |
+| Variable | Source |
+|----------|--------|
+| `FIREBASE_ANDROID_API_KEY` | Firebase Console |
+| `FIREBASE_WEB_API_KEY` | Firebase Console |
+| `FIREBASE_ANDROID_APP_ID` | Firebase Console |
+| `FIREBASE_PROJECT_ID` | Firebase Console |
+| `GOOGLE_SERVER_CLIENT_ID` | Google Cloud Console |
 
 ---
 
