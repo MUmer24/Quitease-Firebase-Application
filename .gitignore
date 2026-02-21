@@ -1,0 +1,111 @@
+
+# ==========================================
+# 🤖 AI AGENT TOOLKIT (NOT FLUTTER APP CODE)
+# ==========================================
+
+# Antigravity AI Kit — agent rules, skill files, scripts
+.agent/
+
+# ==========================================
+# 🔒 SECURITY & FIREBASE SPECIFIC IGNORES 🔒
+# ==========================================
+
+# Firebase Configuration Files (contain real keys — never commit)
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+**/macos/Runner/GoogleService-Info.plist
+# Both firebase_options.dart files contain real API keys — exclude both.
+# Contributors must run: flutterfire configure (see README Setup section)
+lib/firebase_options.dart
+lib/core/config/firebase_options.dart
+
+# Environment Variables
+.env
+.env.*
+*.env
+# (Explicitly allow template files so other devs know what keys they need)
+!.env.example
+!.env.template
+
+# Keystores and App Signing (Crucial for Android)
+*.jks
+*.keystore
+**/android/key.properties
+
+# ==========================================
+# 🛠 STANDARD FLUTTER / DART / IDE IGNORES 🛠
+# ==========================================
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+Thumbs.db
+
+# IntelliJ / Android Studio related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android specific
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# Exceptions to iOS rules
+!**/ios/**/*.xcworkspace/
+
+# iOS specific
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+
+# SAFE TO COMMIT — explicitly include template and security docs
+!.env.example
+!.env.template
+!SECURITY.md
+!docs/
+!docs/**

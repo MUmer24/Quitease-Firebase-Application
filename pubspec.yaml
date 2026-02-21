@@ -1,0 +1,80 @@
+name: quitease
+description: "A comprehensive smoking cessation app to help users quit smoking with progress tracking, achievements, and health insights."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+  # Firebase Services
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.5.1
+
+  # Google Sign In
+  google_sign_in: ^7.2.0
+
+  # Local Storage
+  shared_preferences: ^2.3.3
+  sqflite: ^2.4.1
+  path: ^1.9.1
+  path_provider: ^2.1.5
+
+  # Notifications
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+
+  # UI Components
+  cupertino_icons: ^1.0.8
+  iconsax_flutter: ^1.0.0
+  font_awesome_flutter: ^10.8.0
+  lottie: ^3.2.2
+  cached_network_image: ^3.4.1
+
+  # Utilities
+  intl: ^0.20.1
+  connectivity_plus: ^6.1.1
+  share_plus: ^10.1.3
+  app_links: ^6.3.3
+
+  # Splash Screen
+  flutter_native_splash: ^2.4.3
+
+  # Environment Variables
+  flutter_dotenv: ^6.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  # Flutter Launcher Icon
+  flutter_launcher_icons: ^0.14.4 
+
+
+flutter:
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - .env
+    
+    # Images
+    - assets/imgs/
+    - assets/imgs/achievements_imgs/
+    
+    # Icons
+    - assets/icons/
+
+    # Logoa
+    - assets/logo/
