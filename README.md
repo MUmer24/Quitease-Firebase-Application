@@ -246,10 +246,6 @@ The app uses:
 }
 ```
 
-> ⚠️ **Security Notice:** Update `firestore.rules` before any public deployment. The default rules expire June 2026 and should be replaced with user-scoped rules.
-
----
-
 ## 📋 Onboarding Flow
 
 ```
