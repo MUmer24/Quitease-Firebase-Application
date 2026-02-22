@@ -1,7 +1,6 @@
 <div align="center">
 
-# 🚭 QuitEase
-
+# <img src="assets/app_screenshots/ic_launcher.png" alt="QuitEase" width="50" align="center"/> QuitEase
 ### Your Smart Companion for a Smoke-Free Life
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.10%2B-02569B?logo=flutter)](https://flutter.dev)
@@ -107,11 +106,11 @@ Share your stats and achievement card with friends, or invite them to download t
 
 ## 📱 Screenshots
 
-> *Coming soon — run the app locally to explore the interface*
 
-| Auth | Dashboard | Achievements | Health | Progress | Settings |
-|------|-----------|--------------|--------|----------|----------|
-| Sign in or continue as guest | Real-time smoke-free counter | 20 badge collection | WHO timeline | Weekly/monthly stats | Profile & notifications |
+| Auth | Dashboard | Achievements | Health | Progress | Settings | Profile | Notification |
+|------|-----------|--------------|--------|----------|----------|---------|--------------|
+| Sign in or continue as guest | Real-time smoke-free counter | 20 badge collection | WHO timeline | Weekly/monthly stats | All Settings | Profile Info | Notification Settings |
+|<img src="assets/app_screenshots/AUTH-SignIn-Screen.jpeg" alt="Auth_Screen" width="100"/>|<img src="assets/app_screenshots/MAIN-Dashboard-Screen.jpeg" alt="Dashboard_Screen" width="100"/>|<img src="assets/app_screenshots/MAIN-Achievement-Screen.jpeg" alt="Achievement_Screen" width="100"/>|<img src="assets/app_screenshots/MAIN-Health-Screen.jpeg" alt="Health_Screen" width="100"/>|<img src="assets/app_screenshots/MAIN-Progress-Screen.jpeg" alt="Progress_Screen" width="100"/>|<img src="assets/app_screenshots/SETTING-Settings-Screen.jpeg" alt="Settings_Screen" width="100"/>|<img src="assets/app_screenshots/SETTING-Profile-Screen.jpeg" alt="Profile_Screen" width="100"/>|<img src="assets/app_screenshots/SETTING-Notification-Screen.jpeg" alt="Notification_Screen" width="100"/>|
 
 ---
 
